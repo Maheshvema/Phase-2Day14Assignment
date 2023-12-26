@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">ASP.NET</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+       
+    </section>
+
+    <div class="row">
+        <div class="col-md-4" aria-labelledby="gettingStartedTitle">
+           <h1>ICC World Cup Info</h1>
+            @Html.Partial("PView")
+        </div>
+        <div class="col-md-4" aria-labelledby="librariesTitle">
+            
+        </div>
+        <div class="col-md-4" aria-labelledby="hostingTitle">
+            <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+        </div>
+    </div>
+</main>

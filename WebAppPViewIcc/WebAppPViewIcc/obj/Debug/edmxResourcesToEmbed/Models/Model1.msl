@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WorldCupdbModelStoreContainer" CdmEntityContainer="WorldCupdbEntities">
+    <EntitySetMapping Name="Cups">
+      <EntityTypeMapping TypeName="WorldCupdbModel.Cup">
+        <MappingFragment StoreEntitySet="Cups">
+          <ScalarProperty Name="TeamId" ColumnName="TeamId" />
+          <ScalarProperty Name="TeamName" ColumnName="TeamName" />
+          <ScalarProperty Name="NOWC" ColumnName="NOWC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
